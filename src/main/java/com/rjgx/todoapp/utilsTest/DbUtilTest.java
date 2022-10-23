@@ -1,10 +1,8 @@
 package com.rjgx.todoapp.utilsTest;
 
-import com.rjgx.todoapp.utils.DbUtil;
+import com.rjgx.todoapp.Database.DbUtil;
 
 import java.sql.Connection;
-import java.sql.Driver;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**

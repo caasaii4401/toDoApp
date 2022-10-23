@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.rjgx.todoapp.utils;
+package com.rjgx.todoapp.Database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
