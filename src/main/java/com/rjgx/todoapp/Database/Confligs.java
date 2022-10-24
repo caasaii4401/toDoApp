@@ -10,11 +10,11 @@ package com.rjgx.todoapp.Database;
  * @version: 1.0
  */
 public class Confligs {
-    protected String dbHost="";
-    protected String dbPort = "";
-    protected String dbUser = "";
-    protected String dbPass= "";
-    protected String dbName = "";
+    protected String dbHost="152.136.126.117";
+    protected String dbPort = "3306";
+    protected String dbUser = "root";
+    protected String dbPass= "7dee7d40a9c136b2";
+    protected String dbName = "todo";
 
 
 

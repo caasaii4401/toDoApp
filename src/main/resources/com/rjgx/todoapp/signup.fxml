@@ -7,8 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.rjgx.todoapp.controller.SignupController">
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rjgx.todoapp.controller.SignupController">
    <children>
       <AnchorPane prefHeight="77.0" prefWidth="700.0" style="-fx-background-color: #00FFFF;">
          <children>
@@ -31,10 +30,10 @@
       <TextField fx:id="signUpFirstName" layoutX="249.0" layoutY="129.0" promptText="First Name" />
       <TextField fx:id="signUpLastName" layoutX="249.0" layoutY="159.0" promptText="Last Name" />
       <TextField fx:id="signupUserName" layoutX="248.0" layoutY="200.0" promptText="User Name" />
-      <TextField layoutX="248.0" layoutY="309.0" promptText="location" />
+      <TextField fx:id="signUpLocation" layoutX="248.0" layoutY="309.0" promptText="location" />
       <CheckBox fx:id="signUpCheckBoxFemale" layoutX="350.0" layoutY="282.0" mnemonicParsing="false" text="Famle" />
       <CheckBox fx:id="signUpCheckBoxMale" layoutX="259.0" layoutY="282.0" mnemonicParsing="false" text="Male" />
-      <PasswordField fx:id="signUpUsername" layoutX="248.0" layoutY="231.0" promptText="Password" />
+      <PasswordField fx:id="signUpPassword" layoutX="248.0" layoutY="231.0" promptText="Password" />
       <Button fx:id="signUpButton" alignment="CENTER" layoutX="248.0" layoutY="350.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="202.0" text="Sign Up">
          <font>
             <Font size="18.0" />

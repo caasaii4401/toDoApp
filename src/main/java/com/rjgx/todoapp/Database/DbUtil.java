@@ -13,11 +13,11 @@ import java.sql.Statement;
 public class DbUtil {
     //把几个用于连接数据库的字符串定义成常量，不必每次去创建,这些字符串也可以通过配置文件方式读取
     //数据库用户名
-    private static final String USER = "rjgx";
+    private static final String USER = "todo";
     //数据库密码
     private static final String UPWD = "QADnfets520";
     //远程数据库
-    private static final String URL = "jdbc:mysql://150.136.120.124:3306/rjgx";
+    private static final String URL = "jdbc:mysql://152.136.126.117:3306/todo";
     //驱动
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     //注册驱动
