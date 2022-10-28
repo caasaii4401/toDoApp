@@ -41,12 +41,14 @@ public class LoginController {
 
     @FXML
     void initialize() {
-        String loginText=loginUsername.getText().trim();
-        String loginPwd=loginPassword.getText().trim();
-        User user=new User();
-        user.setUserName(loginText);
-        user.setPassword(loginPwd);
+        databaseHandler=new DatabaseHandler();
+
         loginButton.setOnAction(actionEvent -> {
+            String loginText=loginUsername.getText().trim();
+            String loginPwd=loginPassword.getText().trim();
+            User user=new User();
+            user.setUserName(loginText);
+            user.setPassword(loginPwd);
             ResultSet userRow=databaseHandler.getUser(user);
             int counter=0;
             try {

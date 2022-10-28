@@ -41,9 +41,10 @@ public class DatabaseHandler extends Confligs{
     public ResultSet getUser(User user) {
         ResultSet resultSet=null;
         if (!user.getUserName().equals("") || !user.getPassword().equals("")) {
-            String query = "SELECT * FROM" + Const.USERS_TABLE + "WHERE" + Const.USERS_USERNAME + "=?"
-                    + "AND" + Const.USERS_PASSWORD + "=?";
-            //select all from users where username="paulo" and password="password";
+           String query = " SELECT  *  FROM " + Const.USERS_TABLE + " WHERE "
+                    + Const.USERS_USERNAME + " =? "
+                    + " AND " + Const.USERS_PASSWORD + " =? ";
+            //select all from users where username="1" and password="1";
             try {
                 PreparedStatement preparedStatement = getDbConnection().prepareStatement(query);
                 preparedStatement.setString(1, user.getUserName());
