@@ -8,9 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<fx:root prefHeight="400.0" prefWidth="700.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-         fx:controller="com.rjgx.todoapp.controller.AddItemController">
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rjgx.todoapp.controller.AddItemController">
    <children>
       <AnchorPane prefHeight="94.0" prefWidth="700.0" style="-fx-background-color: #00FFFF;">
          <children>
@@ -21,11 +19,11 @@
             </Label>
          </children>
       </AnchorPane>
-      <Label alignment="CENTER" layoutX="232.0" layoutY="148.0" prefHeight="78.0" prefWidth="228.0" text="Not Tasks for Today,Yet!" />
-      <ImageView fx:id="addButton" fitHeight="84.0" fitWidth="62.0" layoutX="325.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+      <Label fx:id="notTaskLabel" alignment="CENTER" layoutX="232.0" layoutY="148.0" prefHeight="78.0" prefWidth="228.0" text="Not Tasks for Today,Yet!" />
+      <ImageView fx:id="addButton" fitHeight="85.0" fitWidth="71.0" layoutX="304.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../java/com/rjgx/todoapp/assets/add.png" />
+            <Image url="@assets/add.png" />
          </image>
       </ImageView>
    </children>
-</fx:root>
+</AnchorPane>
